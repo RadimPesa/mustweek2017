@@ -20,11 +20,7 @@ COPY vomses /etc/vomses
 copy voms1.grid.cesnet.cz.lsc /etc/grid-security/vomsdir/fedcloud.egi.eu
 copy voms2.grid.cesnet.cz.lsc /etc/grid-security/vomsdir/fedcloud.egi.eu
 
-
-
-
-
-#Install OCCI-CLI (ale ktere?)
+#Install OCCI-CLI
 RUN gem install occi-cli
 ENV PATH /usr/loca/bin:$PATH
 
