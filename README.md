@@ -16,7 +16,7 @@ Copy your private key and certficate to .globus directory in your home directory
 
 ### Start container
 ```bash
-sudo docker run -v ~/sources/:/root/sources -v ~/.globus:/root/.globus -it docker pull radimpesa/mustweek2017 /bin/bash
+sudo docker run -v ~/sources/:/root/sources -v ~/.globus:/root/.globus -it radimpesa/mustweek2017 /bin/bash
 ```
 
 ### Generate proxy
