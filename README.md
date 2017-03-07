@@ -57,7 +57,7 @@ occi --endpoint "https://carach5.ics.muni.cz:11443" --auth x509 --user-cred $X50
 $ occi --endpoint "https://carach5.ics.muni.cz:11443" --auth x509 --user-cred $X509_USER_PROXY \
        --action create --voms --resource compute \
        --mixin os_tpl#uuid_egi_centos_7_fedcloud_warg_149 \
-       --mixin resource_tpl#medium
+       --mixin resource_tpl#medium \
        --attribute occi.core.title="MyFirstVM"
 
 https://carach5.ics.muni.cz:11443/compute/86281
