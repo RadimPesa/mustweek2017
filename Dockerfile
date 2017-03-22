@@ -28,4 +28,6 @@ RUN wget -O get-cloudify.py 'http://repository.cloudifysource.org/org/cloudify3/
 RUN python get-cloudify.py -e ~/cfy
 RUN unlink get-cloudify.py
 
-VOLUME ["/root/.globus" "/root/mustweek"]
+WORKDIR /root
+CMD ["/bin/bash"]
+
